@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core'; 
-import { ProductListComponent } from './product-list/product-list.component'
+import { ProductListComponent } from './catalog/product-list/product-list.component'
 import {BackendService} from './backend.service'
 @Component({
   selector: 'app-root',
