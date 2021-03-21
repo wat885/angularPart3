@@ -9,13 +9,13 @@ import {BackendService} from './backend.service'
 export class AppComponent implements OnInit {
   title = 'demo2';
 
-  @ViewChild('productList', { static: true })
-  productList: ProductListComponent;
+  // @ViewChild('productList', { static: true })
+  // productList: ProductListComponent;
 
-  constructor(private backendService: BackendService) {}
+  // constructor(private backendService: BackendService) {}
  
   ngOnInit(): void {
-    this.productList.products = this.backendService.getProducts();
+    // this.productList.products = this.backendService.getProducts();
     
     // this.productList.products = [
     //   { name: 'ส้มโอ', price: 111 },
